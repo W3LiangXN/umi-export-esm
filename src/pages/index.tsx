@@ -1,3 +1,5 @@
+import { Button } from 'antd'
+import { Switch } from '@headlessui/react'
 import yayJpg from '../assets/yay.jpg';
 
 export default function HomePage() {
@@ -7,6 +9,8 @@ export default function HomePage() {
       <p>
         <img src={yayJpg} width="388" />
       </p>
+      <Button type="primary">Button</Button>
+      <Switch>开关</Switch>
       <p>
         To get started, edit <code>pages/index.tsx</code> and save to reload.
       </p>
